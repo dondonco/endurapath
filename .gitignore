@@ -1,0 +1,15 @@
+logs
+*.log
+node_modules
+dist
+coverage
+*.local
+
+# Secrets - never commit credentials or env files
+.env
+.env.*
+!.env.example
+
+.vscode/*
+.idea
+.DS_Store
